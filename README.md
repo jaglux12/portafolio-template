@@ -10,7 +10,7 @@
 
 ## Método de desarrollo
 
-  texto...
+  
 
 ## Tecnologías utlizadas
 
