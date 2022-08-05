@@ -15,3 +15,7 @@
 ## Tecnologías utlizadas
 
   texto...
+
+## Desarrolladores
+
+  texto...
