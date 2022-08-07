@@ -21,4 +21,5 @@ Debido a la gran cantidad de resoluciones de pantalla que existen, nuestro porta
 
 ## Desarrolladores
 
-  - [jaglux12](https://github.com/jaglux12) - [devsiderio](https://github.com/devsiderio)
+  - [jaglux12](https://github.com/jaglux12) 
+  - [devsiderio](https://github.com/devsiderio)
