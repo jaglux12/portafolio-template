@@ -2,7 +2,7 @@
 
 ## Introducción
 
-  Este portafolio, realizado en equipo, es el trabajo final para la asignatura de Tecnologías Web, de la Tecnicatura Universitaria de Software Libre de la UNL. Sirve como modelo libre de portafolio que responde a nuestra necesidad concreta de contar con sitios webs donde podamos mostrar los trabajos que vayamos haciendo a lo largo del tiempo, y a su vez, nos sirve como práctica para afianzar los conocimientos que fuimos aprendiendo en el último tiempo, sumado a los que se adquieren al momento de encarar las dificultades que implican empezar un proyecto nuevo. En el mejor de los casos, esta necesidad es compartida con otras personas y este repositorio puede llegar a servir de inspiración para aprender cómo la arquitectura de un sitio de estas características, así como para realizar sus propios portafolios.
+  Este portafolio, realizado en equipo, es el trabajo final para la asignatura de Tecnologías Web, de la Tecnicatura Universitaria de Software Libre de la UNL. Sirve como modelo libre de portafolio que responde a nuestra necesidad concreta de contar con sitios webs donde podamos mostrar los trabajos que vayamos haciendo a lo largo del tiempo y, a su vez, nos sirve como práctica para afianzar los conocimientos que fuimos aprendiendo en el último tiempo, sumado a los que se adquieren al momento de encarar las dificultades que implican empezar un proyecto nuevo. En el mejor de los casos, esta necesidad es compartida con otras personas y este repositorio puede llegar a servir de inspiración para aprender cómo la arquitectura de un sitio de estas características, así como para realizar sus propios portafolios.
 
 ## A quién esta dirigido
 
