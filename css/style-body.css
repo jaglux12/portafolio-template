@@ -1,9 +1,10 @@
 :root{
 
   /* Colores */
-  --color-fondo: hsl(207, 100%, 99%);
+  --color-fondo: hsl(207, 40%, 8%);
 
 }
+
 body{
-  background-color:
+  background-color: var(--color-fondo);
 }
