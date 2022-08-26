@@ -4,6 +4,7 @@
 
     <meta charset="utf-8">
     <title>Mi portafolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -16,31 +17,39 @@
 
     <!-- CSS locales -->
     <link rel="stylesheet" href="css/style-body.css">
+    <link rel="stylesheet" href="css/style-header.css">
 
   </head>
 
-  <body class="p-5">
+  <body>
 
-    <header class="container-fluid">
+    <header class="container-fluid p-5">
 
         <!-- Botón para cambiar el color de la página -->
-        <div class="row">
+        <div class="row mb-5">
             <div class="d-flex justify-content-end">
-              <i class="bi bi-brightness-high" style="font-size: 3.75rem; color: white;"></i>
+              <i class="bi bi-brightness-high" style="font-size: 1.75rem; color: white;"></i>
             </div>
         </div>
 
         <!-- Foto de perfil -->
-        <div class="row justify-content-center">
-            <div class="col-1 bg-light">
-                <div class="d-flex">
-                  <h1>fsdfs</h1>
+        <div class="row justify-content-center px-5">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="d-flex justify-content-center rounded-circle
+                            overflow-hidden ciruloPerfil">
+                  <img src="img/perfil.png" alt="" style="width: 90px;">
                 </div>
             </div>
         </div>
 
-    </header>
+        <!-- Nombre del desarrollador -->
+        <div class="row justify-content-center">
+          <div class="col-12 d-flex justify-content-center">
+                <h1>Gonzalo Lopez</h1>
+          </div>
+        </div>
 
+    </header>
 
     <!-- JavaScript con Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
