@@ -1,8 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
 :root{
 
   /* Colores */
   --color-fondo: hsl(207, 40%, 8%);
+  --color-titulos: #e5e5e5 ;
+  --color-subtitulos:  #c6c5c6;
 
+  /* Fuentes */
+  --fuente-titulos: 'Poppins', sans-serif;
 }
 
 body{

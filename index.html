@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
 
     <meta charset="utf-8">
@@ -25,15 +26,16 @@
 
     <header class="container-fluid p-5">
 
+        <!-- ======== Diseño para dispositivos móbiles ======== -->
         <!-- Botón para cambiar el color de la página -->
-        <div class="row mb-5">
+        <div class="row d-block d-md-none mb-5">
             <div class="d-flex justify-content-end">
               <i class="bi bi-brightness-high" style="font-size: 1.75rem; color: white;"></i>
             </div>
         </div>
 
         <!-- Foto de perfil -->
-        <div class="row justify-content-center px-5">
+        <div class="row d-block d-md-none justify-content-center px-5">
             <div class="col-12 d-flex justify-content-center">
                 <div class="d-flex justify-content-center rounded-circle
                             overflow-hidden ciruloPerfil">
@@ -43,11 +45,14 @@
         </div>
 
         <!-- Nombre del desarrollador -->
-        <div class="row justify-content-center">
-          <div class="col-12 d-flex justify-content-center">
-                <h1>Gonzalo Lopez</h1>
+        <div class="row d-block d-md-none justify-content-center">
+          <div class="col-12 d-flex justify-content-center flex-column ">
+                <h1 class="Nombre mt-3 text-center">Gonzalo Lopez</h1>
+                <label class="Trabajo text-center">Desarrollador WEB</label>
           </div>
         </div>
+
+        <!-- ======== Cierre para dispositivos móbiles ======== -->
 
     </header>
 

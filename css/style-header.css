@@ -1,6 +1,17 @@
-
-
 .ciruloPerfil{
   width: 110px;
   background-image:linear-gradient( to bottom, #9e36e1 ,var(--color-fondo));
+}
+
+.Nombre{
+  color:  var(--color-titulos);
+  font-family: var(--fuente-titulos);
+  font-size: 1.30rem;
+  font-weight: 600;
+}
+
+.Trabajo{
+  color: var(--color-subtitulos);
+  font-size: 0.90rem;
+  margin-top: -0.60rem;
 }
