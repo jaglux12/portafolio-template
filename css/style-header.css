@@ -40,11 +40,10 @@
   border-color: #7D0AB3 !important;
 }
 
-i {
-  color: white;
-}
-
 .btn-outline-primary, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
   border-color: #7D0AB3 !important;
 }
 
+i {
+  color: white;
+}
