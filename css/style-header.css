@@ -34,3 +34,16 @@
   font-family: var(--fuente-titulos);
   font-weight: 400;
 }
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited  {
+  background-color: #7D0AB3 !important;
+  border-color: #7D0AB3 !important;
+}
+
+.btn-outline-primary {
+  border-color: #7D0AB3 !important;
+}
+
+i {
+  color: #7D0AB3
+}
