@@ -12,6 +12,25 @@
 
 .Trabajo{
   color: var(--color-subtitulos);
-  font-size: 0.90rem;
+  font-size: 0.80rem;
+  font-family: var(--fuente-titulos);
   margin-top: -0.60rem;
+}
+
+.Titulo{
+  color: var(--color-subtitulos);
+  font-size: 1.25rem;
+  font-family: var(--fuente-titulos);
+  font-weight: 600;
+}
+
+.Paneles{
+  background-color: var(--color-panel);
+}
+
+.SubTitulos{
+  color: var(--color-subtitulos);
+  font-size: 0.75rem;
+  font-family: var(--fuente-titulos);
+  font-weight: 400;
 }

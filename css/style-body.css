@@ -9,6 +9,9 @@
 
   /* Fuentes */
   --fuente-titulos: 'Poppins', sans-serif;
+
+  /* Paneles */
+  --color-panel:  #511d73;
 }
 
 body{
