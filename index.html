@@ -54,35 +54,41 @@
 
         <!-- Información del desarrollador -->
         <div class="row d-block d-md-none justify-content-center py-4
-                    d-flex flex-row Paneles mt-4 rounded">
+                    d-flex flex-row mt-4 rounded">
             <div class="col-4 col-sm-2">
                 <h1 class="Titulo text-center">5</h1>
                 <label class="SubTitulos text-center w-100">Años de <br> trabajo </label>
             </div>
             <div class="col-4 col-sm-2">
               <h1 class="Titulo text-center">10</h1>
-              <label class="SubTitulos text-center w-100">Proyectos <br> completados </label>
+              <label class="SubTitulos text-center w-100">Proyectos<br>completados</label>
             </div>
             <div class="col-4 col-sm-2">
               <h1 class="Titulo text-center">19</h1>
               <label class="SubTitulos text-center w-100">Clientes <br> satisfechos </label>
             </div>
         </div>
-        <div class="d-flex justify-content-center">
-          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-            <div class="btn-group" role="group">
-              <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                Curriculum Vitae
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="pdf/developerCV.pdf" download rel="noopener noreferrer" target="_blank">Descargar</a></li>
-              </ul>
-            </div>
 
-            <a href="https://t.me/ComunidadTUSL" target="_blank" type="button" class="btn btn-outline-primary"><i class="bi bi-telegram"></i></a>
-            <a href="mailto:mailde@ejemplo.com" type="button" class="btn btn-outline-primary"><i class="bi bi-envelope"></i></a>
+        <!-- Descargar curriculum -->
+        <div class="row d-block d-md-none d-flex flex-row justify-content-center
+        py-2 px-2">
+
+          <div class="col-8 col-sm-5 d-flex justify-content-center">
+            <a href="pdf/developerCV.pdf" download rel="noopener noreferrer" target="_blank">
+              <button type="button" name="button" class="btn btn-primary p-3">
+                Descargar CV
+                <i class="bi bi-download"></i>
+              </button>
+            </a>
           </div>
+
+          <div class="col-4 col-sm-3 d-flex justify-content-center align-items-center">
+              <a href="https://t.me/ComunidadTUSL" target="_blank" type="button" class="btn btn-outline-primary"><i class="bi bi-telegram"></i></a>
+              <a href="mailto:mailde@ejemplo.com" type="button" class="btn btn-outline-primary ms-3"><i class="bi bi-envelope"></i></a>
+          </div>
+
         </div>
+
         <!-- ======== Cierre para dispositivos móviles ======== -->
 
     </header>
