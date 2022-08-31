@@ -69,11 +69,11 @@
             </div>
         </div>
 
-        <!-- Descargar curriculum -->
+        <!-- Descargar curriculum y redes sociales -->
         <div class="row d-block d-md-none d-flex flex-row justify-content-center
         py-2 px-2">
 
-          <div class="col-7 col-sm-5 d-flex justify-content-center">
+          <div class="col-8 col-sm-5 d-flex justify-content-center bg-warning">
             <a href="pdf/developerCV.pdf" download rel="noopener noreferrer" target="_blank">
               <button type="button" name="button" class="btn btn-primary p-3">
                 Descargar CV
@@ -87,6 +87,34 @@
               <a href="mailto:mailde@ejemplo.com" type="button" class="btn btn-outline-primary ms-3"><i class="bi bi-envelope"></i></a>
           </div>
 
+        </div>
+
+        <!-- Barra de tabs para moverse por el contenido de la página web -->
+        <nav>
+          <div class="nav-tabs my-4 px-2 d-flex justify-content-center border-0 py-3 bg-warning rounded" id="nav-tab" role="tablist">
+
+            <button class="nav-link active p-2 px-4 rounded" id="nav-proyectos-tab" data-bs-toggle="tab"
+            data-bs-target="#nav-proyectos" type="button" role="tab" aria-controls="nav-home"
+            aria-selected="true">
+                Proyectos
+            </button>
+
+            <button class="nav-link p-3 px-4 rounded ms-2" id="nav-habilidades-tab" data-bs-toggle="tab"
+            data-bs-target="#nav-habilidades" type="button" role="tab" aria-controls="nav-profile"
+            aria-selected="false">
+                Habilidades
+            </button>
+
+          </div>
+        </nav>
+
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-proyectos" role="tabpanel" aria-labelledby="new-proyectos-tab" tabindex="0">
+              Proyectos
+          </div>
+          <div class="tab-pane fade show" id="nav-habilidades" role="tabpanel" aria-labelledby="new-habilidades-tab" tabindex="0">
+              Habilidades
+          </div>
         </div>
 
         <!-- ======== Cierre para dispositivos móviles ======== -->
