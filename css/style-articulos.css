@@ -1,5 +1,6 @@
 #nav-tab{
-  background-color: var(--color-panel);
+  background-color:  #3a0e56 ;
+  border-radius: 15px;
 }
 
 .SubTitulos{
@@ -20,8 +21,13 @@
 /* Colores de fondo para botones */
 
 
-.nav-link{
-  background-color: red;
+.nav-link, .nav-link:focus{
+  color: white !important;
+  background-color: var(--color-fondo) !important;
+}
+
+.nav-link, .nav-link:visited{
+  background-color: transparent !important;
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited  {
