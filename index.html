@@ -19,12 +19,13 @@
     <!-- CSS locales -->
     <link rel="stylesheet" href="css/style-body.css">
     <link rel="stylesheet" href="css/style-header.css">
+    <link rel="stylesheet" href="css/style-articulos.css">
 
   </head>
 
   <body>
 
-    <header class="container-fluid p-5">
+    <header class="container-fluid px-5 pt-5">
 
         <!-- ======== Diseño para dispositivos móbiles ======== -->
         <!-- Botón para cambiar el color de la página -->
@@ -52,6 +53,17 @@
           </div>
         </div>
 
+        <!-- ======== Cierre para dispositivos móviles ======== -->
+
+    </header>
+
+    <!-- Contenido principal del body -->
+
+    <!-- ======== Diseño para dispositivos móbiles ======== -->
+    <section>
+
+      <article class="px-5 pb-5">
+
         <!-- Información del desarrollador -->
         <div class="row d-block d-md-none justify-content-center py-4
                     d-flex flex-row mt-4 rounded">
@@ -73,9 +85,9 @@
         <div class="row d-block d-md-none d-flex flex-row justify-content-center
         py-2 px-2">
 
-          <div class="col-8 col-sm-5 d-flex justify-content-center bg-warning">
+          <div class="col-8 col-sm-5 d-flex justify-content-center">
             <a href="pdf/developerCV.pdf" download rel="noopener noreferrer" target="_blank">
-              <button type="button" name="button" class="btn btn-primary p-3">
+              <button type="button" name="button" class="btn btn-primary p-3 SubTitulos" style="font-size: 0.9rem">
                 Descargar CV
                 <i class="bi bi-download"></i>
               </button>
@@ -90,16 +102,16 @@
         </div>
 
         <!-- Barra de tabs para moverse por el contenido de la página web -->
-        <nav>
-          <div class="nav-tabs my-4 px-2 d-flex justify-content-center border-0 py-3 bg-warning rounded" id="nav-tab" role="tablist">
+        <nav class="d-flex justify-content-center">
+          <div class="nav-tabs my-4 px-4 d-flex justify-content-center border-0 py-3 rounded" id="nav-tab" role="tablist">
 
-            <button class="nav-link active p-2 px-4 rounded" id="nav-proyectos-tab" data-bs-toggle="tab"
+            <button class="nav-link active p-2 px-3 rounded" id="nav-proyectos-tab" data-bs-toggle="tab"
             data-bs-target="#nav-proyectos" type="button" role="tab" aria-controls="nav-home"
             aria-selected="true">
                 Proyectos
             </button>
 
-            <button class="nav-link p-3 px-4 rounded ms-2" id="nav-habilidades-tab" data-bs-toggle="tab"
+            <button class="nav-link p-3 px-3 rounded ms-2" id="nav-habilidades-tab" data-bs-toggle="tab"
             data-bs-target="#nav-habilidades" type="button" role="tab" aria-controls="nav-profile"
             aria-selected="false">
                 Habilidades
@@ -108,6 +120,7 @@
           </div>
         </nav>
 
+        <!-- Paneles que contienen la Información de los tabs -->
         <div class="tab-content" id="nav-tabContent">
           <div class="tab-pane fade show active" id="nav-proyectos" role="tabpanel" aria-labelledby="new-proyectos-tab" tabindex="0">
               Proyectos
@@ -117,9 +130,10 @@
           </div>
         </div>
 
-        <!-- ======== Cierre para dispositivos móviles ======== -->
+      </article>
 
-    </header>
+    </section>
+    <!-- ======== Cierre para dispositivos móviles ======== -->
 
     <!-- JavaScript con Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
