@@ -1,6 +1,6 @@
 #nav-tab{
   background-color:  #3a0e56 ;
-  border-radius: 15px;
+  border-radius: 16px;
 }
 
 .SubTitulos{
@@ -17,11 +17,17 @@
   font-weight: 600;
 }
 
+.proyRemeras{
+  background-image: url("../img/proyectos/proyecto_1.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
 
 /* Colores de fondo para botones */
 
-
-.nav-link, .nav-link:focus{
+.nav-link, .nav-link:focus ,.nav-link:hover{
   color: white !important;
   background-color: var(--color-fondo) !important;
 }
