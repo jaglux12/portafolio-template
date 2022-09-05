@@ -122,20 +122,81 @@
 
         <!-- Paneles que contienen la Información de los tabs -->
         <div class="tab-content d-block d-md-none" id="nav-tabContent">
+
+          <!-- Muestra los proyectos que tengamos -->
           <div class="tab-pane d-flex justify-content-center fade show active" id="nav-proyectos" role="tabpanel" aria-labelledby="new-proyectos-tab" tabindex="0">
-              <div class="proyRemeras d-flex flex-column overflow-hidden" style="width: 270px; height: 180px;">
+
+            <!-- Muestra los proyectos en dispositivos pequeños -->
+            <section class="d-block d-sm-none">
+
+              <div class="d-flex justify-content-center">
+                <div class="proyRemeras d-flex flex-column overflow-hidden" style="width: 280px; height: 200px;">
+                </div>
+                <div class="text-light position-absolute mt-5">
+                  <h4 class="SubTitulos" style="font-size: 1rem;">Página WEB</h4>
+                  <h3 class="Titulo">Venta de remeras</h3>
+                  <button type="button" name="button" class="btn btn-primary rounded-pill">
+                    <i class="bi bi-link"></i>
+                  </button>
+                </div>
               </div>
-              <div class="text-light position-absolute mt-5">
-                <h4 class="SubTitulos" style="font-size: 1rem;">Página WEB</h4>
-                <h3 class="Titulo">Venta de remeras</h3>
-                <button type="button" name="button" class="btn btn-primary rounded-pill">
-                  <i class="bi bi-link"></i>
-                </button>
+
+              <div class="d-flex justify-content-center mt-4">
+                <div class="proyAutos d-flex flex-column overflow-hidden" style="width: 280px; height: 200px;">
+                </div>
+                <div class="text-light position-absolute mt-5">
+                  <h4 class="SubTitulos" style="font-size: 1rem;">Página WEB</h4>
+                  <h3 class="Titulo">Venta de autos</h3>
+                  <button type="button" name="button" class="btn btn-primary rounded-pill">
+                    <i class="bi bi-link"></i>
+                  </button>
+                </div>
               </div>
+
+            </section>
+
+            <!-- Muestra los proyectos en dispositivos medianos -->
+            <section class="d-none d-sm-block d-md-none">
+              <div class="row">
+
+                <div class="col-sm-6 d-flex justify-content-center">
+
+                  <div class="proyRemeras d-flex flex-column overflow-hidden" style="width: 400px; height: 200px;">
+                  </div>
+                  <div class="text-light position-absolute mt-5">
+                    <h4 class="SubTitulos" style="font-size: 1rem;">Página WEB</h4>
+                    <h3 class="Titulo">Venta de remeras</h3>
+                    <button type="button" name="button" class="btn btn-primary rounded-pill">
+                      <i class="bi bi-link"></i>
+                    </button>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-6 d-flex justify-content-center">
+
+                  <div class="proyAutos d-flex flex-column overflow-hidden" style="width: 400px; height: 200px;">
+                  </div>
+                  <div class="text-light position-absolute mt-5">
+                    <h4 class="SubTitulos" style="font-size: 1rem;">Página WEB</h4>
+                    <h3 class="Titulo">Venta de autos</h3>
+                    <button type="button" name="button" class="btn btn-primary rounded-pill">
+                      <i class="bi bi-link"></i>
+                    </button>
+                  </div>
+
+                </div>
+
+              </div>
+            </section>
+
           </div>
-          <div class="tab-pane fade show" id="nav-habilidades" role="tabpanel" aria-labelledby="new-habilidades-tab" tabindex="0">
-              Habilidades
+
+          <!-- Muestra las habilidades del programador -->
+          <div class="tab-pane fade show d-flex justify-content-center" id="nav-habilidades" role="tabpanel" aria-labelledby="new-habilidades-tab" tabindex="0">
+
           </div>
+
         </div>
 
       </article>

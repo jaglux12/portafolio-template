@@ -31,6 +31,20 @@
   transform: scale(1.05);
 }
 
+.proyAutos{
+  background-image: url("../img/proyectos/proyecto_2.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  filter: brightness(50%);
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.proyAutos:hover{
+  transform: scale(1.05);
+}
+
 
 /* Colores de fondo para botones */
 
