@@ -12,6 +12,10 @@
 
   /* Paneles */
   --color-panel:  #100020 ;
+
+  /* Color principal */
+  --color-principal:  #c267fd ;
+
 }
 
 body{
