@@ -132,8 +132,8 @@
         </div>
 
         <!-- Barra de tabs para moverse por el contenido de la página web -->
-        <div class="d-flex justify-content-center d-block d-md-none">
-          <nav class="nav nav-tabs my-4 px-4 d-flex justify-content-center border-0 py-3" id="nav-tab" role="tablist">
+        <nav class="d-flex justify-content-center d-block d-md-none">
+          <div class="nav nav-tabs my-4 px-4 d-flex justify-content-center border-0 py-3" id="nav-tab" role="tablist">
 
             <button class="nav-link active p-2 px-3 rounded border-0" id="nav-proyectos-tab" data-bs-toggle="tab" data-bs-target="#nav-proyectos" type="button" role="tab" aria-controls="nav-proyectos" aria-selected="true">
               Proyectos
@@ -143,8 +143,8 @@
               Habilidades
             </button>
 
-          </nav>
-        </div>
+          </div>
+        </nav>
 
         <!-- Paneles que contienen la Información de los tabs -->
         <div class="tab-content d-block d-md-none" id="nav-tabContent">
@@ -179,6 +179,24 @@
                 <div class="text-light position-absolute mt-5">
                   <h4 class="SubTitulos" style="font-size: 1rem">Página WEB</h4>
                   <h3 class="Titulo">Venta de autos</h3>
+                  <button
+                    type="button"
+                    name="button"
+                    class="btn btn-primary rounded-pill"
+                  >
+                    <i class="bi bi-link"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-center mt-4">
+                <div
+                  class="proyBlog d-flex flex-column overflow-hidden"
+                  style="width: 280px; height: 200px"
+                ></div>
+                <div class="text-light position-absolute mt-5">
+                  <h4 class="SubTitulos" style="font-size: 1rem">Página WEB</h4>
+                  <h3 class="Titulo">Blog personal</h3>
                   <button
                     type="button"
                     name="button"
@@ -491,6 +509,13 @@
             </section>
           </div>
 
+        </div>
+
+        <!-- Licencia de la página web -->
+        <div class="d-block d-md-none d-flex flex-column align-items-center mt-5">
+          <p class="text-light SubTitulos">Esta página está bajo la <br>
+            <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+               class="Links">Licencia de Documentación Libre GNU GPL 2.0</a> </p>
         </div>
 
       </article>
