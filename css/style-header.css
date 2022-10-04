@@ -24,3 +24,30 @@
 i {
   color: white;
 }
+
+.TituloBrand{
+  font-family: var(--fuente-titulos);
+  color: var(--color-titulos);
+  transition-property: color;
+  transition-duration: 0.3s;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.TituloBrand:hover{
+  color:#9e36e1;
+}
+
+.TitulosNav {
+  margin: 0px 10px;
+  text-decoration: none;
+  font-family: var(--fuente-titulos);
+  color: var(--color-subtitulos);
+  transition-property: color;
+  transition-duration: 0.3s;
+  font-size: 16px;
+}
+
+.TitulosNav:hover{
+  color:#9e36e1;
+}
