@@ -11,7 +11,7 @@
 }
 
 .Titulo{
-  color: var(--color-subtitulos);
+  color: var(--color-titulos);
   font-size: 1.25rem;
   font-family: var(--fuente-titulos);
   font-weight: 600;
@@ -86,4 +86,12 @@ h2 {
   font-family: var(--fuente-titulos);
   font-size: 1.25rem;
   font-weight: 900;
+}
+
+p {
+  color: var(--color-titulos);
+  font-size: 1rem;
+  font-family: var(--fuente-titulos);
+  font-weight: 300;
+  text-align: center;
 }
