@@ -617,7 +617,7 @@
             <a
               href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
               class="Links"
-              >Licencia de Documentación Libre GNU GPL 2.0</a
+              >Licencia Pública General de GNU 2.0</a
             >
           </p>
         </div>
@@ -633,7 +633,7 @@
           style="background-color: var(--color-fondo)"
         >
           <div class="container-fluid mt-5">
-            <a class="TituloBrand" href="#"> Gonzalo Lopez </a>
+            <a class="TituloBrand" href="#inicio"> Gonzalo Lopez </a>
 
             <div class="navbar-nav">
               <a class="TitulosNav" href="#inicio"> Inicio </a>
@@ -649,11 +649,22 @@
           </div>
         </nav>
 
-        <br />
+        <!-- Bug: arreglar esto para no usar los <br> y que la nav no "pise" el resto del contenido del body -->
+        <br /> 
         <br />
         <br />
 
         <h2 id="inicio">Inicio</h2>
+        <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-center">
+            <div
+              class="d-flex justify-content-center rounded-circle overflow-hidden circuloPerfil"
+            >
+              <img src="img/perfil.png" alt="" style="width: 90px" />
+            </div>
+          </div>
+        </div>
+
         <div
           class="d-flex justify-content-center"
         >
@@ -896,6 +907,7 @@
             </div>
           </div>
         </div>
+
         <h2 id="contacto">Contacto</h2>
         <div class="d-flex justify-content-center align-items-center">
           <a
