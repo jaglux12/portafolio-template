@@ -15,7 +15,7 @@ Debido a la gran cantidad de resoluciones de pantalla que existen, nuestro porta
 
  - **Primero:** partimos de un diseño con enfoque para dispositivos móviles.
  - **Segundo:** lo iremos adaptando a las demás resoluciones de pantalla (tablets, computadoras).
- - **Tercero:** subimos la página web a un servicio de pruebas [click aquí.](https://portafolio-tecweb.netlify.app/)
+ - **Tercero:** subimos la página web a un servicio de hosteo. Haciendo [click aquí](https://portafolio-tecweb.netlify.app/) se puede ver el portafolio funcionando.
  - **Cuarto:** agregaremos nuevas funcionalidades al proyecto a lo largo del tiempo.
 
 ## Tecnologías utlizadas
