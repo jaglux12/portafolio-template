@@ -81,8 +81,9 @@
 }
 
 h2 {
-  color: var(--color-titulos);
+  color: chartreuse;
   text-align: center;
   font-family: var(--fuente-titulos);
   font-size: 1.25rem;
+  font-weight: 900;
 }
