@@ -608,20 +608,19 @@
     <!-- ======== Cierre para dispositivos móviles ======== -->
 
     <!-- ======== Apertura para tablets y computadoras ======== -->
-    <section class="d-none d-md-block">
+    <section class="d-none d-md-block pt-5">
       <nav
-        class="navbar navbar-expand fixed-top px-5 py-4"
-        style="background-color: var(--color-fondo)"
-      >
-        <div class="container-fluid mt-5">
+        class="navbar navbar-expand fixed-top px-5 py-3 mx-5"
+        style="background-color: var(--color-fondo)">
+        <div class="container-fluid mt-5 px-5">
           <a class="TituloBrand" href="#inicio"> Gonzalo Lopez </a>
 
           <div class="navbar-nav">
-            <a class="TitulosNav" href="#inicio"> Inicio </a>
+            <a class="TitulosNav" href="#"> Inicio </a>
 
-            <a class="TitulosNav" href="#sobre-mi"> Sobre mí </a>
+            <a class="TitulosNav" href="#inicio"> Sobre mí </a>
 
-            <a class="TitulosNav" href="#habilidades"> Habilidades </a>
+            <a class="TitulosNav" href="#sobre-mi"> Habilidades </a>
 
             <a class="TitulosNav" href="#proyectos"> Proyectos </a>
 
@@ -630,51 +629,50 @@
         </div>
       </nav>
 
-      <!-- Bug: arreglar esto para no usar los <br> y que la nav no "pise" el resto del contenido del body -->
-      <br />
-      <br />
-      <br />
-      <br />
+      <!-- Muestra la información principal del desarrollador -->
+      <div id="inicio" class="mx-5 py-5 d-flex" style="margin-top: 100px;">
 
-      <h2 id="inicio">Inicio</h2>
-      <div class="d-flex justify-content-center">
-        <div class="d-flex justify-content-center">
-          <div
-            class="d-flex justify-content-center rounded-circle overflow-hidden circuloPerfil"
-          >
-            <img src="img/perfil.png" alt="" style="width: 90px" />
+        <div class="w-25 d-flex
+                    justify-content-center flex-column align-items-center">
+
+          <i class="bi bi-github"
+            style="font-size: 20px; color: var(--color-principal);">
+          </i>
+
+          <i class="bi bi-stack-overflow my-3"
+            style="font-size: 20px; color: var(--color-principal);">
+          </i>
+
+          <i class="bi bi-linkedin"
+            style="font-size: 20px; color: var(--color-principal);">
+          </i>
+
+        </div>
+
+        <div class="w-75 d-flex pt-4 py-5 mb-5">
+          <div class="w-50">
+            <h1 class="TituloQuienSoy">Hola, soy</h1>
+            <h1 class="TituloQuienSoy">Gonzalo Lopez</h1>
+            <h2 class="SubTitulosQuienSoy text-start">Full stack developer</h2>
+            <p class="ParrafoQuienSoy text-start pe-5">Desarrollador a tiempo completo, experto en el uso de diferentes
+            tecnologías y gran apasionado de la programación.</p>
+
+            <button
+              type="button"
+              name="button"
+              class="btn btn-primary p-3 me-3 SubTitulos"
+              style="font-size: 0.9rem">
+              Contáctame
+              <i class="bi bi-caret-right-fill ms-3" style="font-size: 0.9rem"></i>
+            </button>
+
+
+          </div>
+          <div class="">
+            <h1>fsdf</h1>
           </div>
         </div>
-      </div>
 
-      <div class="d-flex justify-content-center">
-        <div class="col-12 d-flex justify-content-center flex-column">
-          <h1 class="Nombre mt-3 text-center">Gonzalo Lopez</h1>
-          <label class="Trabajo text-center">Desarrollador Web</label>
-        </div>
-      </div>
-
-      <div class="d-flex justify-content-center">
-        <div class="d-flex flex-column">
-          <h1 class="Titulo text-center">5</h1>
-          <label class="SubTitulos text-center w-100"
-            >Años de <br />
-            trabajo
-          </label>
-        </div>
-        <div class="d-flex flex-column mx-3">
-          <h1 class="Titulo text-center">22</h1>
-          <label class="SubTitulos text-center w-100"
-            >Proyectos<br />completados</label
-          >
-        </div>
-        <div class="d-flex flex-column">
-          <h1 class="Titulo text-center">14</h1>
-          <label class="SubTitulos text-center w-100"
-            >Clientes <br />
-            satisfechos
-          </label>
-        </div>
       </div>
 
       <h2 id="sobre-mi">Sobre mí</h2>

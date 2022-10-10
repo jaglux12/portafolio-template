@@ -17,6 +17,27 @@
   font-weight: 600;
 }
 
+.TituloQuienSoy{
+  color: var(--color-titulos);
+  font-size: 2.25rem;
+  font-family: var(--fuente-titulos);
+  font-weight: 600;
+}
+
+.SubTitulosQuienSoy{
+  color: var(--color-subtitulos);
+  font-size: 1.4rem;
+  font-family: var(--fuente-titulos);
+  font-weight: 400;
+}
+
+.ParrafoQuienSoy{
+  color: var(--color-subtitulos);
+  font-size: 0.9rem;
+  font-family: var(--fuente-titulos);
+  font-weight: 400;
+}
+
 .proyRemeras{
   background-image: url("../img/proyectos/proyecto_1.jpg");
   background-position: center;
