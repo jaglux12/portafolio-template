@@ -119,6 +119,10 @@ p {
 
 /* Sección Sobre Mí */
 
+#sobreMi {
+  padding-top: 5rem;
+}
+
 .sobreMi-data {
   padding-top: 12rem;
   padding-inline: 8rem;
