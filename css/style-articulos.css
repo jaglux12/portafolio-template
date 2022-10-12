@@ -102,10 +102,10 @@
 }
 
 h2 {
-  color: chartreuse;
+  color: var(--color-titulos);
   text-align: center;
   font-family: var(--fuente-titulos);
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   font-weight: 900;
 }
 
@@ -119,15 +119,13 @@ p {
 
 /* Sección Sobre Mí */
 
-.sobreMi-info{
+.sobreMi_container{
   display: flex;
   justify-content: space-evenly;
 }
-.sobreMi-info-nombre{
-  font-size: var(--small-font-size);
-}
 
-.sobreMi-info-titulo,.sobreMi-info-nombre{
-  display: block;
-  text-align: center;
+
+.sobreMi-info{
+  display: flex;
+  justify-content: space-evenly;
 }
