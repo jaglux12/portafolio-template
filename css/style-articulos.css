@@ -116,3 +116,18 @@ p {
   font-weight: 300;
   text-align: center;
 }
+
+/* Sección Sobre Mí */
+
+.sobreMi-info{
+  display: flex;
+  justify-content: space-evenly;
+}
+.sobreMi-info-nombre{
+  font-size: var(--small-font-size);
+}
+
+.sobreMi-info-titulo,.sobreMi-info-nombre{
+  display: block;
+  text-align: center;
+}
