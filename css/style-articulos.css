@@ -1,7 +1,7 @@
 nav {
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(8px);
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15  );
+  box-shadow: 0 20px 30px rgba(152, 52, 217, 0.15);
 }
 
 #nav-tab{
