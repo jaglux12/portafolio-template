@@ -119,13 +119,13 @@ p {
 
 /* Sección Sobre Mí */
 
-.sobreMi_container{
-  display: flex;
-  justify-content: space-evenly;
+.sobreMi-data {
+  padding: 10rem 10rem;
 }
-
 
 .sobreMi-info{
   display: flex;
   justify-content: space-evenly;
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
 }
