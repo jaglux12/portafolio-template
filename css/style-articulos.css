@@ -144,3 +144,7 @@ p {
   padding-top: 10rem;
   padding-bottom: 10rem;
 }
+
+.img-sobreMi-estilo {
+  border-radius: 10px;
+}
