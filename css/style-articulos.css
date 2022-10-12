@@ -120,7 +120,9 @@ p {
 /* Sección Sobre Mí */
 
 .sobreMi-data {
-  padding: 10rem 10rem;
+  padding-top: 12rem;
+  padding-inline: 8rem;
+  padding-bottom: 10rem;
 }
 
 .sobreMi-info{
@@ -132,4 +134,9 @@ p {
 
 .sobreMi-info-box {
   padding-inline: 1rem;
+}
+
+.img-sobreMi {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
