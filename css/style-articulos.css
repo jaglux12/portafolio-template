@@ -1,3 +1,9 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15  );
+}
+
 #nav-tab{
   background-color:  #3a0e56 ;
   border-radius: 16px;
