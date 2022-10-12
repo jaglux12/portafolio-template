@@ -1,10 +1,10 @@
 .circuloPerfil{
-  width:110px;
+  width:105px;
   background-image:linear-gradient( to bottom, #9e36e1 ,var(--color-fondo));
 }
 
 .circuloPerfilGrande{
-  width:275px;
+  width:265px;
   background-image:linear-gradient( to bottom, #9e36e1 ,var(--color-fondo));
 }
 
