@@ -43,3 +43,7 @@
   font-size: 0.80rem;
   color: var(--color-subtitulos);
 }
+
+.skills__area {
+  padding-inline: 4rem;
+}

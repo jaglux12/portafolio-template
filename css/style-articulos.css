@@ -147,3 +147,21 @@ padding-left: 5rem;
 .img-sobreMi-estilo {
   border-radius: 10px;
 }
+
+/* Sección Habilidades */
+
+#habilidades {
+  padding-top: 5rem;
+}
+
+/* Sección Proyectos */
+
+#proyectos {
+  padding-top: 5rem;
+}
+
+/* Sección Contacto */
+
+#contacto {
+  padding-top: 5rem;
+}
