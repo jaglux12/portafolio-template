@@ -2,8 +2,7 @@
 
 ## Introducción
 
-Este portafolio, realizado en equipo, es el trabajo final para la asignatura de Tecnologías Web, el cual es dicatada por el profesor Juan Pablo Taulamet, de la Tecnicatura Universitaria de Software Libre de la [UNL](https://www.unl.edu.ar/). Sirve como modelo libre de portafolio que responde a nuestra necesidad concreta de contar con sitios webs donde podamos mostrar los trabajos que vayamos haciendo a lo largo del tiempo y, a su vez, como práctica para afianzar los conocimientos que fuimos aprendiendo en el último tiempo, sumado a los que se adquieren al momento de encarar las dificultades que implican empezar un nuevo proyecto. <br>
-En el mejor de los casos, esta necesidad es compartida con otras personas y este repositorio puede llegar a servir de inspiración para aprender cómo es la arquitectura de un sitio de estas características, así como para realizar sus propios portafolios.
+Este portafolio fue realizado en equipo y es el trabajo final para la asignatura de Tecnologías Web, a cargo del profesor Juan Pablo Taulamet, de la Tecnicatura Universitaria de Software Libre de la [UNL](https://www.unl.edu.ar/). Sirve como modelo libre de portafolio que responde a nuestra necesidad concreta de contar con sitios webs donde podamos mostrar los trabajos que vayamos haciendo a lo largo del tiempo y, a su vez, como práctica para afianzar los conocimientos que vamos aprendiendo. Sabemos que esta necesidad es compartida con otras personas y deseamos que este repositorio puede llegar a servir para que otras personas aprendan cómo es la arquitectura de un sitio de estas características y, en el mejor de los casos, que les sirva para realizar sus propios portafolios.
 
 ## A quién esta dirigido
 
