@@ -31,7 +31,7 @@ Para realizar el proyecto, utilizamos diferentes tecnologías web:
 
 ## Cómo adaptar este portafolio a tus necesidades
 
-Haciendo fork de este repositorio, se puede hacer una copia para editar libremente. Luego, y una vez descargados todos los archivos en tu computadora, podés abrir los archivos con un editor de código como puede ser VSCodium o Atom (son los que utilizamos nosotros), y de ahí ir modificando la información y las imágenes a gusto. Si entendés mejor cada uno de los componentes (que están comentados por sección en el index.html), podés modificarlos, quitarlos o agregar otros. En los archivos CSS podés cambiar el estilo visual de todos los elementos.
+Haciendo fork de este repositorio, se puede hacer una copia para editar libremente. Luego, y una vez descargados todos los archivos en tu computadora, podés abrir los archivos con un editor de código como puede ser VSCodium o Atom (son los que utilizamos nosotros), y de ahí ir modificando la información y las imágenes a gusto. Si entendés mejor cada uno de los elementos (que están comentados y divididos por sección en el index.html), podés modificarlos, quitarlos o agregar otros. En los archivos CSS podés cambiar el estilo visual de todos los elementos.
 
 ## Cultura Libre
 
