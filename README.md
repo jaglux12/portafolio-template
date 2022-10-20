@@ -15,9 +15,9 @@ En primer lugar buscamos ejemplos de portafolios hechos por otras personas y nos
 
 En la actualidad existen muchas resoluciones distintas de pantallas. De forma general, podemos agruparlas en tres tamaños: celulares (dispositivos pequeños), tablets (dispositivos medianos) y computadoras/TVs (dispositivos grandes). La gran abundancia de celulares que existen en la actualidad, por sobre la de otros dispositivos, hacen que estos tengan prioridad en el desarrollo. Por ello:
 
- - **Primero:** partimos de un diseño con enfoque para dispositivos pequeños
- - **Segundo:** lo adaptamos a una resolución para dispotivos medianos/grandes.
- - **Tercero:** subimos la página web a un servicio de hosteo. Para ello, hicimos una cuenta en Netlify. En la pantalla inicial, tocamos el botón "Añadir nuevo sitio", de ahí "Importar un proyecto existente" y vinculamos Netlify con GitHub. Luego, elegimos el repositorio del portafolio web. Avanzando, elegimos la rama principal. Deployamos y listo!
+ - **Primero:** partimos de un diseño enfocado en dispositivos pequeños.
+ - **Segundo:** luego hicimos el diseño para dispotivos medianos/grandes.
+ - **Tercero:** subimos la página web a un servicio de hosting. Para ello, hicimos una cuenta en Netlify. En la pantalla inicial, tocamos el botón "Añadir nuevo sitio", de ahí "Importar un proyecto existente" y vinculamos Netlify con GitHub. Luego, elegimos el repositorio del portafolio web. Avanzando, elegimos la rama principal. Deployamos y listo!
  [Acá](https://portafolio-tecweb.netlify.app/) se puede ver el portafolio web hosteado.
  - **Cuarto:** iremos agregando nuevas funcionalidades al proyecto a lo largo del tiempo.
 
@@ -27,11 +27,11 @@ Para realizar el proyecto, utilizamos diferentes tecnologías web:
 
  - **[HTML](https://es.wikipedia.org/wiki/HTML)**: sirve para crear el "esqueleto" de la información del sitio web.
  - **[CSS](https://es.wikipedia.org/wiki/CSS)**: sirve para darle un diseño estético al sito.
- - **[Bootstrap](https://es.wikipedia.org/wiki/Bootstrap_(framework))**: posee una gran cantidad de clases predefinidas, que resulta sumamente práctico para partir de elementos hechos, y luego ir modificándolos.
+ - **[Bootstrap](https://es.wikipedia.org/wiki/Bootstrap_(framework))**: es un framework front-end que posee una gran cantidad de clases predefinidas, que combina HTML, CSS y JS. Resulta sumamente práctico para partir de elementos prefabricados, y luego ir modificándolos.
 
 ## Cómo adaptar este portafolio a tus necesidades
 
-Haciendo fork de este repositorio, se puede hacer una copia para editar libremente. Una vez descargado en tu computadora, podés abrir los archivos con un editor de código como puede ser VSCodium o Atom (son los que utilizamos nosotros), y de ahí ir modificando la información y las imágenes de acuerdo a gusto. Si entendés mejor cada uno de los componentes (que están comentados por sección en el index.html), podés modificarlos, quitarlos o agregar otros. En los archivos CSS podés cambiar el estilo visual de todos los elementos.
+Haciendo fork de este repositorio, se puede hacer una copia para editar libremente. Luego, una vez descargado en tu computadora, podés abrir los archivos con un editor de código como puede ser VSCodium o Atom (son los que utilizamos nosotros), y de ahí ir modificando la información y las imágenes a gusto. Si entendés mejor cada uno de los componentes (que están comentados por sección en el index.html), podés modificarlos, quitarlos o agregar otros. En los archivos CSS podés cambiar el estilo visual de todos los elementos.
 
 ## Cultura Libre
 
