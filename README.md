@@ -1,8 +1,10 @@
-# Plantilla de Portafolio Libre
+# Portafolio Web Libre
 
 ## Introducción
 
-Este trabajo fue realizado en equipo y es el trabajo final para la asignatura de Tecnologías Web, de la Tecnicatura Universitaria de Software Libre de la [UNL](https://www.unl.edu.ar/). La misma está a cargo del profesor titular Juan Pablo Taulamet y el profesor adscripto Hugo Ignacio Boulocq. Este portafolio web libre responde a la necesidad concreta de muchas personas de contar con portafolios donde mostrar sus trabajos, a su vez de que nos sirvió como práctica para afianzar los conocimientos que fuimos aprendiendo en tecnologías web.
+Este trabajo fue realizado en equipo y es el trabajo final para la asignatura de Tecnologías Web, de la Tecnicatura Universitaria de Software Libre de la [UNL](https://www.unl.edu.ar/). La misma está a cargo del profesor titular Juan Pablo Taulamet y el profesor adscripto Hugo Ignacio Boulocq.
+
+Este portafolio web libre responde a la necesidad concreta de muchas personas de contar con portafolios donde mostrar sus trabajos, a su vez de que nos sirvió como práctica para afianzar los conocimientos que fuimos aprendiendo en tecnologías web.
 
 ## A quién esta dirigido
 
