@@ -2,33 +2,43 @@
 
 ## Introducción
 
-Este portafolio fue realizado en equipo y es el trabajo final para la asignatura de Tecnologías Web, a cargo del profesor Juan Pablo Taulamet, de la Tecnicatura Universitaria de Software Libre de la [UNL](https://www.unl.edu.ar/). Sirve como modelo libre de portafolio que responde a nuestra necesidad concreta de contar con sitios webs donde podamos mostrar los trabajos que vayamos haciendo a lo largo del tiempo y, a su vez, como práctica para afianzar los conocimientos que vamos aprendiendo. Sabemos que esta necesidad es compartida con otras personas y deseamos que este repositorio puede llegar a servir para que otras personas aprendan cómo es la arquitectura de un sitio de estas características y, en el mejor de los casos, que les sirva para realizar sus propios portafolios.
+Este portafolio fue realizado en equipo y es el trabajo final para la asignatura de Tecnologías Web, a cargo del profesor Juan Pablo Taulamet junto al profesor adscripto Hugo Ignacio Boulocq, de la Tecnicatura Universitaria de Software Libre de la [UNL](https://www.unl.edu.ar/). Sirve como portafolio web libre que responde a la necesidad concreta de muchas personas de contar con portafolios donde mostrar sus trabajos, a su vez de que nos sirvió como práctica para afianzar los conocimientos que fuimos aprendiendo en tecnologías web.
 
 ## A quién esta dirigido
 
-Esperamos que este portafolio libre sirva como plantilla base para quien quiera tener un sitio donde ir presentando sus trabajos, ya sean propios del área de desarrollo de software (como este modelo), o de otras áreas de conocimiento, y que sea adaptado a las necesidades e intereses de cada persona o comunidad, siempre y cuando se respete el espíritu y licencia libre que acompaña este repositorio.
+Esperamos que este portafolio web libre sirva como plantilla base para quien quiera tener un sitio donde ir presentando sus trabajos, ya sean propios del área de desarrollo de software (como este modelo), o de otras áreas laborales, y que sea adaptado a las necesidades e intereses de cada persona o comunidad, siempre y cuando se respete la licencia libre que acompaña este proyecto.
 
-## Método de desarrollo
+## Inspiración
 
-Debido a la gran cantidad de resoluciones de pantalla que existen, nuestro portafolio debe tener las cualidades necesarias para adaptarse a cada una de ellas. De forma general, podemos agruparlas en 3 secciones: móviles, tablets y computadoras (de escritorio). La gran abundancia de dispositivos móviles que existen en la actualidad, por sobre la de otros dispositivos, permiten establecer la prioridad de nuestro desarrollo hacia ellos. Por lo que en este caso:
+En primer lugar buscamos ejemplos de portafolios hechos por otras personas y nos inspiramos de varios portafolios de [Bedimcode](https://github.com/bedimcode), para hacer tanto el diseño para dispositivos pequeños como para el diseño de dispositivos medianos/grandes.
+## Pasos en el desarrollo
 
- - **Primero:** partimos de un diseño con enfoque para dispositivos móviles.
- - **Segundo:** lo iremos adaptando a las demás resoluciones de pantalla (tablets, computadoras).
- - **Tercero:** subimos la página web a un servicio de hosteo. Haciendo [click aquí](https://portafolio-tecweb.netlify.app/) se puede ver el portafolio funcionando.
- - **Cuarto:** agregaremos nuevas funcionalidades al proyecto a lo largo del tiempo.
+En la actualidad existen muchas resoluciones distintas de pantallas. De forma general, podemos agruparlas en tres tamaños: celulares (dispositivos pequeños), tablets (dispositivos medianos) y computadoras/TVs (dispositivos grandes). La gran abundancia de celulares que existen en la actualidad, por sobre la de otros dispositivos, hacen que estos tengan prioridad en el desarrollo. Por ello:
+
+ - **Primero:** partimos de un diseño con enfoque para dispositivos pequeños
+ - **Segundo:** lo adaptamos a una resolución para dispotivos medianos/grandes.
+ - **Tercero:** subimos la página web a un servicio de hosteo. Para ello, hicimos una cuenta en Netlify. En la pantalla inicial, tocamos el botón "Añadir nuevo sitio", de ahí "Importar un proyecto existente" y vinculamos Netlify con GitHub. Luego, elegimos el repositorio del portafolio web. Avanzando, elegimos la rama principal. Deployamos y listo!
+ [Acá](https://portafolio-tecweb.netlify.app/) se puede ver el portafolio web hosteado.
+ - **Cuarto:** iremos agregando nuevas funcionalidades al proyecto a lo largo del tiempo.
 
 ## Tecnologías utlizadas
 
-Para realizar el proyecto, hemos decidido que utilizaremos diferentes tecnologías web. No es necesario remarcar que tenemos muchas por elegir, pero como en este caso queremos hacer un proyecto simple y que sea fácil de comprender para aquellos usuarios sin muchos conocimientos,  creemos que es la mejor elección. Entre las que podemos nombrar, son:
+Para realizar el proyecto, utilizamos diferentes tecnologías web:
 
- - **[HTML](https://es.wikipedia.org/wiki/HTML)**: es necesario utilizarlo para crear la estructura de nuestra página web).
- - **[CSS](https://es.wikipedia.org/wiki/CSS)**: para darle un diseño a nuestra página, pero no nos centraremos en su utilización intensiva.
+ - **[HTML](https://es.wikipedia.org/wiki/HTML)**: sirve para crear el "esqueleto" de la información del sitio web.
+ - **[CSS](https://es.wikipedia.org/wiki/CSS)**: sirve para darle un diseño estético al sito.
+ - **[Bootstrap](https://es.wikipedia.org/wiki/Bootstrap_(framework))**: posee una gran cantidad de clases predefinidas, que resulta sumamente práctico para partir de elementos hechos, y luego ir modificándolos.
 
-El framework que utilizaremos en este caso, y el que nos permite adaptar la página web a las distintas resoluciones de pantalla es:
+## Cómo adaptar este portafolio a tus necesidades
 
- - **[Bootstrap](https://es.wikipedia.org/wiki/Bootstrap_(framework))**: posee una gran cantidad de clases predefinidas, que nos ahorran mucho trabajo.
+Haciendo fork de este repositorio, se puede hacer una copia para editar libremente. Una vez descargado en tu computadora, podés abrir los archivos con un editor de código como puede ser VSCodium o Atom (son los que utilizamos nosotros), y de ahí ir modificando la información y las imágenes de acuerdo a gusto. Si entendés mejor cada uno de los componentes (que están comentados por sección en el index.html), podés modificarlos, quitarlos o agregar otros. En los archivos CSS podés cambiar el estilo visual de todos los elementos.
+
+## Cultura Libre
+
+Este portafolio está dirigido a fomentar la cultura libre. Se lo puede conocer, usar, editar y compartir libremente. Desde ya, siempre son bienvenidas cualquier tipo de sugerencias, colaboraciones y comentarios en general sobre el portafolio.
 
 ## Desarrolladores
 
-  - [jaglux12](https://github.com/jaglux12)
-  - [devsiderio](https://github.com/devsiderio)
+  - Gonzalo López - [jaglux12](https://github.com/jaglux12)
+
+  - Mariano Javier Portal - [devsiderio](https://github.com/devsiderio)
