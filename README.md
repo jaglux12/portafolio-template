@@ -18,7 +18,8 @@ En la actualidad existen muchas resoluciones distintas de pantallas. De forma ge
  - **Primero:** partimos de un diseño enfocado en dispositivos pequeños.
  - **Segundo:** luego hicimos el diseño para dispotivos medianos/grandes.
  - **Tercero:** subimos la página web a un servicio de hosting. Para ello, hicimos una cuenta en Netlify. En la pantalla inicial, tocamos el botón "Añadir nuevo sitio", de ahí "Importar un proyecto existente" y vinculamos Netlify con GitHub. Luego, elegimos el repositorio del portafolio web. Avanzando, elegimos la rama principal. Deployamos y listo!
- [Acá](https://portafolio-tecweb.netlify.app/) se puede ver el portafolio web hosteado.
+  
+ [Acá](https://portafolio-tecweb.netlify.app/) se puede ver el portafolio web funcionando.
  - **Cuarto:** iremos agregando nuevas funcionalidades al proyecto a lo largo del tiempo.
 
 ## Tecnologías utlizadas
