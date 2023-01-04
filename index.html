@@ -1,11 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Mi portafolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--
+  Portafolio template
+  https://github.com/jaglux12/portafolio-template
 
-    <!-- Bootstrap CSS -->
+  Follow us 
+  @devsiderio - https://github.com/devsiderio
+  @jaglux12 - https://github.com/jaglux12
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    
+    <meta charset="utf-8"/>
+    <title>Mi portafolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- CDN - Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,7 +23,7 @@
       crossorigin="anonymous"
     />
 
-    <!-- Iconos -->
+    <!-- CDN - Bootstrap Iconos -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
@@ -24,16 +34,17 @@
     <link rel="stylesheet" href="css/style-header.css" />
     <link rel="stylesheet" href="css/style-articulos.css" />
     <link rel="stylesheet" href="css/style-skills.css" />
+
   </head>
 
   <body>
-    <!-- Información del desarrollador -->
+
+    <!-- ========= Developer profile -->
     <header class="container-fluid px-5 pt-5">
-      <!-- ======== Diseño para dispositivos móviles ======== -->
-      <!-- Botón para cambiar el color de la página -->
+     
+      <!-- Blank space -->
       <div class="row d-block d-md-none mb-5">
         <div class="d-flex justify-content-end">
-
         </div>
       </div>
 
@@ -41,9 +52,8 @@
       <div class="row d-block d-md-none justify-content-center px-5 mb-3">
         <div class="col-12 d-flex justify-content-center">
           <div
-            class="d-flex justify-content-center rounded-circle overflow-hidden circuloPerfil"
-          >
-            <img src="img/perfil.png" alt="" style="width: 90px" />
+            class="d-flex justify-content-center rounded-circle overflow-hidden circuloPerfil">
+            <img src="img/perfil.png" alt="" style="width: 90px"/>
           </div>
         </div>
       </div>
@@ -55,36 +65,32 @@
           <label class="Trabajo text-center">Full stack Developer</label>
         </div>
       </div>
-
-      <!-- ======== Cierre para dispositivos móviles ======== -->
     </header>
+    <!-- ========= -->
 
-    <!-- Contenido principal del body -->
-
+    <!-- Body main content -->
     <!-- ======== Diseño para dispositivos móviles ======== -->
     <section class="d-block d-md-none">
       <article class="px-5 pb-5">
         <!-- Información del desarrollador -->
         <div
-          class="d-block d-md-none justify-content-center py-4 d-flex flex-row mt-4 rounded"
-        >
+          class="d-block d-md-none justify-content-center py-4 d-flex flex-row mt-4 rounded">
           <div class="d-flex flex-column">
             <h1 class="Titulo text-center">5</h1>
-            <label class="SubTitulos text-center w-100"
-              >Años de <br />
+            <label class="SubTitulos text-center w-100">
+              Años de <br/>
               trabajo
             </label>
           </div>
           <div class="d-flex flex-column mx-3">
             <h1 class="Titulo text-center">22</h1>
-            <label class="SubTitulos text-center w-100"
-              >Proyectos<br />completados</label
-            >
+            <label class="SubTitulos text-center w-100">
+              Proyectos<br/>completados</label>
           </div>
           <div class="d-flex flex-column">
             <h1 class="Titulo text-center">14</h1>
-            <label class="SubTitulos text-center w-100"
-              >Clientes <br />
+            <label class="SubTitulos text-center w-100">
+              Clientes <br/>
               satisfechos
             </label>
           </div>
@@ -92,21 +98,18 @@
 
         <!-- Descargar curriculum y redes sociales -->
         <div
-          class="d-block d-md-none d-flex flex-row justify-content-center py-2 px-2"
-        >
+          class="d-block d-md-none d-flex flex-row justify-content-center py-2 px-2">
           <div class="d-flex justify-content-center">
             <a
               href="pdf/developerCV.pdf"
               download
               rel="noopener noreferrer"
-              target="_blank"
-            >
+              target="_blank">
               <button
                 type="button"
                 name="button"
                 class="btn btn-primary p-3 me-3 SubTitulos"
-                style="font-size: 0.9rem"
-              >
+                style="font-size: 0.9rem">
                 Descargar CV
                 <i class="bi bi-download" style="font-size: 0.9rem"></i>
               </button>
@@ -118,15 +121,16 @@
               href="https://t.me/ComunidadTUSL"
               target="_blank"
               type="button"
-              class="btn btn-outline-primary"
-              ><i class="bi bi-telegram"></i
-            ></a>
+              class="btn btn-outline-primary">
+              <i class="bi bi-telegram"></i>
+            </a>
             <a
               href="mailto:mailde@ejemplo.com"
               type="button"
-              class="btn btn-outline-primary ms-1"
-              ><i class="bi bi-envelope"></i
-            ></a>
+              class="btn btn-outline-primary ms-1">
+              <i class="bi bi-envelope">
+              </i>
+            </a>
           </div>
         </div>
 
@@ -197,16 +201,15 @@
               <div class="d-flex justify-content-center mt-4">
                 <div
                   class="proyAutos d-flex flex-column overflow-hidden"
-                  style="width: 280px; height: 200px"
-                ></div>
+                  style="width: 280px; height: 200px">
+                </div>
                 <div class="text-light position-absolute mt-5">
                   <h4 class="SubTitulos" style="font-size: 1rem">Sitio web</h4>
                   <h3 class="Titulo">GT-Automóviles</h3>
                   <button
                     type="button"
                     name="button"
-                    class="btn btn-primary rounded-pill"
-                  >
+                    class="btn btn-primary rounded-pill">
                     <i class="bi bi-link"></i>
                   </button>
                 </div>
@@ -760,8 +763,8 @@
       <h2 id="habilidades">Habilidades</h2>
       <div
         class="mx-5 py-5 d-flex justify-content-center"
-        style="margin-top: 100px; margin-bottom: 100px"
-      >
+        style="margin-top: 100px; margin-bottom: 100px">
+
         <!-- Desarrollo Frontend -->
         <div class="d-flex justify-content-center">
           <div class="skills__area">
@@ -927,8 +930,7 @@
       <h2 id="proyectos">Proyectos</h2>
       <div
         class="mx-5 py-5 d-flex justify-content-center"
-        style="margin-top: 100px; margin-bottom: 100px"
-      >
+        style="margin-top: 100px; margin-bottom: 100px">
         <div class="d-flex justify-content-center" style="margin-inline: 2%">
           <div
             class="proyRemeras d-flex flex-column overflow-hidden"
@@ -940,8 +942,7 @@
             <button
               type="button"
               name="button"
-              class="btn btn-primary rounded-pill"
-            >
+              class="btn btn-primary rounded-pill">
               <i class="bi bi-link"></i>
             </button>
           </div>
@@ -950,16 +951,15 @@
         <div class="d-flex justify-content-center" style="margin-inline: 2%">
           <div
             class="proyAutos d-flex flex-column overflow-hidden"
-            style="width: 400px; height: 200px"
-          ></div>
+            style="width: 400px; height: 200px">
+          </div>
           <div class="text-light position-absolute mt-5">
             <h4 class="SubTitulos" style="font-size: 1rem">Sitio web</h4>
             <h3 class="Titulo">GT-Automóviles</h3>
             <button
               type="button"
               name="button"
-              class="btn btn-primary rounded-pill"
-            >
+              class="btn btn-primary rounded-pill">
               <i class="bi bi-link"></i>
             </button>
           </div>
@@ -971,13 +971,11 @@
       <h2 id="contacto">Contacto</h2>
       <div
         class="mx-5 py-5 d-flex justify-content-center"
-        style="margin-top: 100px; margin-bottom: 100px"
-      >
+        style="margin-top: 100px; margin-bottom: 100px">
         <div class="d-flex grid">
           <div class="justify-content-center">
             <div class="d-flex grid mb-3">
               <i class="bi bi-envelope"></i>
-
               <div class="d-block">
                 <h3 class="Titulo">Correo</h3>
                 <span class="SubTitulos">maga@dev.com</span>
@@ -1000,8 +998,7 @@
               id="ContactForm"
               class="contact__form grid justify-content-center"
               data-netlify-recaptcha="true"
-              data-netlify="true"
-            >
+              data-netlify="true">
               <div class="grid">
                 <div class="contact__content">
                   <label for="" class="SubTitulos">Nombre</label>
@@ -1009,8 +1006,7 @@
                     name="name"
                     type="text"
                     id="name"
-                    class="contact__name"
-                  />
+                    class="contact__name"/>
                 </div>
                 <div class="contact__content">
                   <label for="" class="SubTitulos">Correo</label>
@@ -1018,8 +1014,7 @@
                     name="email"
                     type="email"
                     id="email"
-                    class="contact__email"
-                  />
+                    class="contact__email"/>
                 </div>
               </div>
               <div class="contact__content">
@@ -1030,8 +1025,8 @@
                   cols="0"
                   rows="7"
                   id="msg"
-                  class="contact__msg"
-                ></textarea>
+                  class="contact__msg">
+                </textarea>
               </div>
               <div data-netlify-recaptcha="true"></div>
               <div>
@@ -1040,13 +1035,12 @@
                   name="button"
                   class="btn btn-primary p-3 me-3 SubTitulos"
                   id="submitButton"
-                  style="font-size: 0.9rem"
-                >
+                  style="font-size: 0.9rem">
                   Enviar mensaje
                   <i
                     class="bi bi-caret-right-fill ms-3"
-                    style="font-size: 0.9rem"
-                  ></i>
+                    style="font-size: 0.9rem">
+                  </i>
                 </button>
               </div>
               <div id="status" class="success"></div>
@@ -1060,19 +1054,20 @@
           Este sitio web está bajo la
           <a
             href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
-            class="Links"
-            >Licencia Pública General de GNU 2.0</a
-          >
+            class="Links">
+            Licencia Pública General de GNU 2.0
+          </a>
         </p>
       </div>
     </section>
     <!-- ======== Cierre para tablets y computadoras ======== -->
 
-    <!-- JavaScript con Popper -->
+    <!-- JavaScript with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous">
+    </script>
+
   </body>
 </html>
