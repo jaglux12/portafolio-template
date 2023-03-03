@@ -1,19 +1,19 @@
 .circuloPerfil{
-  width:105px;
-  height: 100%;
   background-image:linear-gradient( to bottom, #9e36e1 ,var(--color-fondo));
+  height: 100%;
+  width:105px;
 }
 
 .circuloPerfilGrande{
+  background-image:linear-gradient( to bottom, #9e36e1 ,var(--color-fondo));
   width:265px;
   height: auto;
-  background-image:linear-gradient( to bottom, #9e36e1 ,var(--color-fondo));
 }
 
 .Nombre{
   color:  var(--color-titulos);
+  height: auto;
   font-family: var(--fuente-titulos);
-  font-size: 1.30rem;
   font-weight: 600;
 }
 
@@ -33,12 +33,12 @@ i {
 }
 
 .TituloBrand{
-  font-family: var(--fuente-titulos);
   color: var(--color-titulos);
+  font-size: 20px;
+  font-family: var(--fuente-titulos);
+  text-decoration: none;
   transition-property: color;
   transition-duration: 0.3s;
-  text-decoration: none;
-  font-size: 20px;
 }
 
 .TituloBrand:hover{
@@ -46,13 +46,13 @@ i {
 }
 
 .TitulosNav {
-  margin: 0px 10px;
-  text-decoration: none;
-  font-family: var(--fuente-titulos);
   color: var(--color-subtitulos);
+  font-size: 16px;
+  font-family: var(--fuente-titulos);
+  margin: 0px 10px;
+  text-decoration: none;  
   transition-property: color;
   transition-duration: 0.3s;
-  font-size: 16px;
 }
 
 .TitulosNav:hover{

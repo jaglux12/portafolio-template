@@ -138,10 +138,10 @@
 
 h2 {
   color: var(--color-titulos);
-  text-align: center;
   font-family: var(--fuente-titulos);
   font-size: 1.75rem;
   font-weight: 900;
+  text-align: center;
 }
 
 p {
@@ -164,7 +164,7 @@ p {
 }
 
 .sobreMi-data {
-padding-left: 5rem;
+  padding-left: 5rem;
 }
 
 .sobreMi-info{
@@ -202,8 +202,8 @@ padding-left: 5rem;
 
 
 .contact__icon{
-  font-size: 2rem;
   color: white;
+  font-size: 2rem;
   margin-right: var(--mb-0-75);
 }
 
@@ -215,39 +215,39 @@ padding-left: 5rem;
 }
 
 .contact__name{
-  width: 100%;
+  border: none;
   background-color: var(--input-color);
   color: var(--color-titulos);
-  font-family: var(--body-font);
-  font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  border: none;
+  font-family: var(--body-font);
+  font-family: var(--body-font);
   outline: none;
   padding: .25rem .5rem .5rem 0;
+  width: 100%;
 }
 
 .contact__email{
-  width: 100%;
+  border: none;
   background-color: var(--input-color);
   color: var(--color-titulos);
-  font-family: var(--body-font);
-  font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  border: none;
+  font-family: var(--body-font);
+  font-family: var(--body-font);
   outline: none;
   padding: .25rem .5rem .5rem 0;
+  width: 100%;
 }
 
 .contact__msg{
-  width: 100%;
+  border: none;
   background-color: var(--input-color);
   color: var(--color-titulos);
   font-family: var(--body-font);
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  border: none;
   outline: none;
   padding: .25rem .5rem .5rem 0;
+  width: 100%;
 }
 
 .button:hover{
